@@ -1,6 +1,4 @@
-# qtrcodes.org
-
-## Welcome to QTRCodes.org
+# Welcome to QTRCodes.org
 *Initial content and code specification still being drafted.*
 
 ## Overview
