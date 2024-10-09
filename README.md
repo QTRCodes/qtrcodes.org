@@ -1,10 +1,10 @@
-# qtrcode.org
+# qtrcodes.org
 
-## Welcome to QTRCode.org
+## Welcome to QTRCodes.org
 *Initial content and code specification still being drafted.*
 
 ## Overview
-Quick Trusted Response (QTR) codes aim to enhance the security and trustworthiness of QR codes by introducing a standardized verification mechanism. By leveraging existing technologies like BIMI (Brand Indicators for Message Identification) and public key cryptography, QTR codes provide a method for users and applications to verify the authenticity of QR code content before any action is taken.
+Quick Trusted Response (QTR) codes aim to enhance the security and trustworthiness of QR codes by introducing a standardised verification mechanism. By leveraging existing technologies like BIMI (Brand Indicators for Message Identification) and public key cryptography, QTR codes provide a method for users and applications to verify the authenticity of QR code content before any action is taken.
 
 ## Why QTR Codes?
 - Mitigate QR Code Phishing Attacks: QTR codes help prevent malicious redirection and data theft by verifying the source and integrity of the QR code content.
@@ -18,6 +18,8 @@ Quick Trusted Response (QTR) codes aim to enhance the security and trustworthine
 - Offline Validation: Supports caching of BIMI records and public keys for offline verification.
 
 ## Get Involved
-- Implement QTR Support: Integrate QTR code verification into your applications.
-- Contribute to the Specification: Join the discussion and help refine the QTR standard.
-- Provide Feedback: Share your insights and help improve the security of QR codes globally.
+- Contribute to the Specification: [Join the discussion](https://github.com/QTRCode/qtr-code-specification/discussions) and help refine the [QTR standard](https://github.com/QTRCode/qtr-code-specification).
+- Provide Feedback: [Share your insights](https://github.com/QTRCode/qtr-code-specification/discussions) and help improve the security of QR codes globally.
+- Implement QTR Support: Integrate QTR code verification into your applications (_documentation to be created_).
+- This qtrcodes.org website: [Suggest changes on GitHub](https://github.com/QTRCode/qtrcodes.org).
+- Contact us using the hello at qtrcodes.org email
