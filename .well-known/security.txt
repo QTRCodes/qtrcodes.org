@@ -1,0 +1,4 @@
+Contact: mailto:security@qtrcodes.org
+
+Last-Updated: 2024-10-10T21:09:52Z
+Expires: 2034-10-10T21:09:52Z
