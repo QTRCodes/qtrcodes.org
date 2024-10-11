@@ -16,5 +16,5 @@ body {
         color: #f0f0f0;
     }
     .imglink img { color: #121212 }
-    a.not(.imglink) { color: #75b6ff }
+    a:not(.imglink) { color: #75b6ff }
 }
