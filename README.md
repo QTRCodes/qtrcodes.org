@@ -26,4 +26,4 @@ Quick Trusted Response (QTR) codes aim to enhance the security and trustworthine
 
 Sponsored by RESOAuth
 
-<a href="https://www.resoauth.dev"><img title="RESOAuth Logo" src="https://www.resoauth.dev/assets/images/RESOAuth-Logo-Icon-Border.svg" width="70" /></a>
+<a class="imglink" href="https://www.resoauth.dev"><img title="RESOAuth Logo" src="https://www.resoauth.dev/assets/images/RESOAuth-Logo-Icon-Border.svg" width="70" /></a>
