@@ -1,3 +1,5 @@
+<img class="logo" src="/assets/images/qtr-codes-logo-darkmode.svg" width="100" title="QTRCodes Logo" />
+
 # Welcome to QTRCodes.org
 *Initial content and code specification still being drafted.*
 

@@ -9,12 +9,27 @@ body {
     color: #333;
 }
 
+img {
+  background-color: transparent !important;
+}
+
+h1:not(#welcome-to-qtrcodesorg) {
+    display: none;
+}
+
+.logo {
+  width: 10em;
+  content:url(/assets/images/qtr-codes-logo-lightmode.svg);
+}
+
 /* Dark mode styles */
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #121212;
         color: #f0f0f0;
     }
-    .imglink img { color: #121212 }
-    a:not(.imglink) { color: #75b6ff }
+
+    .logo {
+      content:url(/assets/images/qtr-codes-logo-darkmode.svg);
+    }
 }
