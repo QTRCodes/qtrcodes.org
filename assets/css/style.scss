@@ -17,6 +17,15 @@ h1:not(#welcome-to-qtrcodesorg) {
     display: none;
 }
 
+@media (prefers-color-scheme: light) {
+  h1, h2, h3, h4 { border-bottom: 2px solid #4169e14d !important; }
+  hr { background-color: #4169e14d !important; }
+}
+@media (prefers-color-scheme: dark) {
+  h1, h2, h3, h4 { border-bottom: 2px solid #698aeb91 !important; }
+  hr { background-color: #698aeb91 !important; }
+}
+
 .logo {
   width: 10em;
   content:url(/assets/images/qtr-codes-logo-lightmode.svg);
@@ -28,7 +37,7 @@ h1:not(#welcome-to-qtrcodesorg) {
         background-color: #121212;
         color: #f0f0f0;
     }
-
+    a { color: #698aeb }
     .logo {
       content:url(/assets/images/qtr-codes-logo-darkmode.svg);
     }
