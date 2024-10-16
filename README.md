@@ -1,10 +1,12 @@
 <img class="logo" src="/assets/images/qtr-codes-logo-darkmode.svg" width="100" title="QTRCodes Logo" />
 
 # Welcome to QTRCodes.org
-*Initial content and code specification still being drafted.*
+*Initial content and [code specification](https://github.com/QTRCode/qtr-code-specification) still being drafted.*
 
 ## Overview
 Quick Trusted Response (QTR) codes aim to enhance the security and trustworthiness of QR codes by introducing a standardised verification mechanism. By leveraging existing technologies like BIMI (Brand Indicators for Message Identification) and public key cryptography, QTR codes provide a method for users and applications to verify the authenticity of QR code content before any action is taken.
+
+<img class="center" src="/assets/images/qtr-code-mobile-examples.png" width="700" style="text-align:center;" />
 
 ## Why QTR Codes?
 - Mitigate QR Code Phishing Attacks: QTR codes help prevent malicious redirection and data theft by verifying the source and integrity of the QR code content.
@@ -13,7 +15,7 @@ Quick Trusted Response (QTR) codes aim to enhance the security and trustworthine
 
 ## Key Features
 - Signature Verification: Uses cryptographic signatures appended as query parameters to verify content authenticity.
-- Public Key Retrieval: Supports fetching public keys via DNS records or well-known endpoints.
+- Public Key Retrieval: Supports fetching public keys via DNS records, well-known endpoints or HTTP response headers.
 - BIMI Integration: Incorporates BIMI records to display verified brand logos.
 - Offline Validation: Supports caching of BIMI records and public keys for offline verification.
 
